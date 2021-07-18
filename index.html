@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainDiv">
+        <div class="inputBar">
+            <input class="result" type="text" name="" id="showResult">
+        </div>
+        <div>
+            <!-- <button class="opr1" onclick="dlt()">Delete</button> -->
+            <button class="clear" onclick="clearBtn()">CLEAR</button>
+        </div>
+        <div>
+            <button class="btn-dsg" onclick="getNumber(7)">7</button>
+            <button class="btn-dsg" onclick="getNumber(8)">8</button>
+            <button class="btn-dsg" onclick="getNumber(9)">9</button>
+            <button class="opr" onclick="getNumber('*')">X</button>
+        </div>
+        <div>
+            <button class="btn-dsg" onclick="getNumber(4)">4</button>
+            <button class="btn-dsg" onclick="getNumber(5)">5</button>
+            <button class="btn-dsg" onclick="getNumber(6)">6</button>
+            <button class="opr" onclick="getNumber('-')">-</button>
+        </div>
+        <div>
+            <button class="btn-dsg" onclick="getNumber(1)">1</button>
+            <button class="btn-dsg" onclick="getNumber(2)">2</button>
+            <button class="btn-dsg" onclick="getNumber(3)">3</button>
+            <button class="opr" onclick="getNumber('+')">+</button>
+        </div>
+        <div>
+            <button class="btn-dsg" onclick="getNumber(0)">0</button>
+            <button class="btn-dsg" onclick="getNumber('.')">.</button>
+            <button class="opr" onclick="getResult()">=</button>
+            <button class="opr" onclick="getNumber('/')">/</button>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
